@@ -2,6 +2,7 @@
 ## A simple To Do List web-app, that lets you save your tasks locally.
 <br>
 This a simple web project, a Task Recorder of sorts. <br>
+
 ### It lets you:
 - add new tasks to the list.
 - remove tasks from the list.
