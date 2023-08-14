@@ -1,6 +1,8 @@
 # To Do List
 ## A simple To Do List web-app, that lets you save your tasks locally.
 <br>
+![To Do List](images/screenshot.png)
+
 This a simple web project, a Task Recorder of sorts. <br>
 
 ### It lets you:
