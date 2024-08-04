@@ -116,3 +116,12 @@
   .social-icons img:hover {
     transform: translateY(-5px); /* Move the icons up slightly on hover */
   }
+
+.footer-item {
+  margin-top: 10px; /* Adjust as needed */
+}
+
+.footer-item a {
+  color: #ffffff; /* Adjust to match your design */
+  text-decoration: none;
+}
