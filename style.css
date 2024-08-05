@@ -54,6 +54,8 @@ body {
   border: none;
   border-radius: 0.3em;
   cursor: pointer;
+  padding: 0.8em; /* Add padding to make it more tappable */
+  width: 100%; /* Ensure full width in grid item */
 }
 
 #tasks {
@@ -145,4 +147,16 @@ footer {
 .footer-item a {
   color: #ffffff;
   text-decoration: none;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  #new-task {
+    grid-template-columns: 1fr; /* Stack input and button */
+    gap: 0.5em; /* Reduce gap */
+  }
+  
+  #new-task input, #new-task button {
+    width: 100%; /* Full width for both input and button */
+  }
 }
