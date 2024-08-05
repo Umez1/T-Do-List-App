@@ -18,6 +18,18 @@ body {
   margin: auto;
 }
 
+.header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  background-color: #ff8e44;
+  color: #ffffff;
+  text-align: center;
+  padding: 1em;
+  border-radius: 0.3em;
+  margin-bottom: 1em;
+}
+
 #new-task {
   position: relative;
   background-color: #ffffff;
@@ -54,8 +66,8 @@ body {
   border: none;
   border-radius: 0.3em;
   cursor: pointer;
-  padding: 0.8em; /* Add padding to make it more tappable */
-  width: 100%; /* Ensure full width in grid item */
+  padding: 0.8em;
+  width: 100%;
 }
 
 #tasks {
@@ -152,11 +164,11 @@ footer {
 /* Responsive styles */
 @media (max-width: 600px) {
   #new-task {
-    grid-template-columns: 1fr; /* Stack input and button */
-    gap: 0.5em; /* Reduce gap */
+    grid-template-columns: 1fr;
+    gap: 0.5em;
   }
-  
+
   #new-task input, #new-task button {
-    width: 100%; /* Full width for both input and button */
+    width: 100%;
   }
 }
